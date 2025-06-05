@@ -67,7 +67,11 @@ li {
 }
 
 /* Para telas pequenas (celulares) */
-@media (max-width: 576px) {
+@media (max-width: 1080px) {
+    * {
+        font-size: xx-large;
+    }
+
     .box-main {
         flex-direction: column;
     }
@@ -82,7 +86,11 @@ li {
 }
 
 /* Para telas médias (tablets) */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
+    * {
+        font-size: xx-large;
+    }
+
     .box-main {
         flex-direction: column;
     }
